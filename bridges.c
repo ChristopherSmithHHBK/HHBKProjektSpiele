@@ -1,13 +1,14 @@
 #include "bridges.h"
+#include "function.h"
 
 int feld[17][17];
 
 
 
-int	playBrides(int player_1_ID, int player_2_ID)
+int	playBridges(int player_1_ID, int player_2_ID)
 {
 init();
-spiel();
+spiel(1);
 zeichneSpielfeld();
 printf("\n\n\n\t\t Sieg !!!\n\n");
 system("Pause");
@@ -77,9 +78,10 @@ void zeichneSpielfeld(){
 	}
 }
 
-int spiel(){
+int spiel(int iSpielerAnzahl){
 	int iSpieler=2;
 	int iSpielerNeu=0;
+	init();
 	while (Sieg(iSpieler)==0){	
 	if(iSpieler==1){
 	iSpielerNeu = 2;
@@ -89,8 +91,11 @@ int spiel(){
 	}
 	iSpieler = iSpielerNeu;
 	
-	
+	if(iSpielerAnzahl==1&&iSpieler==2){	
+	zugKI(2);
+	}else{
 	zug(iSpieler);
+	}
 	}
 	return 0;
 }
@@ -107,6 +112,16 @@ int spiel(){
 		scanf("%i",&iYKordinate);
 		}		
 		feld[iXKordinate-1][iYKordinate-1]=iSpieler;	
+	}
+	
+	void zugKI(int iSpieler){
+		int iXKordinate=0;
+		int iYKordinate=0;
+		while(!(zulaessigerZug(iXKordinate, iYKordinate ))){
+			iXKordinate=rand()%18;
+			iYKordinate=rand()%18;
+		}
+		feld[iXKordinate-1][iYKordinate-1]=iSpieler;
 	}
 
 	int zulaessigerZug(int iX , int iY ){

@@ -11,5 +11,6 @@ int spiel();
 void zug(int);
 int zulaessigerZug(int , int);
 int Sieg(int iSpieler);
+void zugKI(int iSpieler);
 
 #endif

@@ -51,6 +51,8 @@ int gt_bridges()
 	switch(iAuswahl)
 	{
 		case 1:
+			playBridges();
+
 			break;
 		case 2:
 			break;

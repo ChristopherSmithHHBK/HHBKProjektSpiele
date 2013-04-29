@@ -1,5 +1,7 @@
 #include "function.h"
 
+
+
 char sNick1[40];
 char sNick2[40];
 int iType=0;
@@ -9,6 +11,15 @@ void main(void)
 {
 	int iRepeat = 1;
 	int iLogin = 1;
+	
+	/*printf("%i\n",rand()%100);
+	printf("%i\n",rand()%100);
+	printf("%i\n",rand()%100);
+	printf("%i\n",rand()%100);
+	printf("%i\n",rand()%100);
+	printf("%i\n",rand()%100);
+	system("Pause");*/
+	
 	do
 	{
 		if(mysql_con()==0)
