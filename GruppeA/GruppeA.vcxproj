@@ -60,16 +60,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\HHBK_Projekt_V1\function.c" />
-    <ClCompile Include="..\..\HHBK_Projekt_V1\main.c" />
-    <ClCompile Include="..\..\HHBK_Projekt_V1\sql_function.c" />
-    <ClCompile Include="..\..\HHBK_Projekt_V1\start_game.c" />
+    <ClCompile Include="..\function.c" />
+    <ClCompile Include="..\main.c" />
+    <ClCompile Include="..\sql_function.c" />
+    <ClCompile Include="..\start_game.c" />
     <ClCompile Include="..\bridges.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\HHBK_Projekt_V1\function.h" />
-    <ClInclude Include="..\..\HHBK_Projekt_V1\sql_function.h" />
-    <ClInclude Include="..\..\HHBK_Projekt_V1\start_game.h" />
+    <ClInclude Include="..\function.h" />
+    <ClInclude Include="..\sql_function.h" />
+    <ClInclude Include="..\start_game.h" />
     <ClInclude Include="..\bridges.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

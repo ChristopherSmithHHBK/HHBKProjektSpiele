@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\HHBK_Projekt_V1\function.c">
+    <ClCompile Include="..\function.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\HHBK_Projekt_V1\main.c">
+    <ClCompile Include="..\main.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\HHBK_Projekt_V1\sql_function.c">
+    <ClCompile Include="..\sql_function.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\HHBK_Projekt_V1\start_game.c">
+    <ClCompile Include="..\start_game.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="..\bridges.c">
@@ -32,13 +32,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\HHBK_Projekt_V1\function.h">
+    <ClInclude Include="..\function.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\HHBK_Projekt_V1\sql_function.h">
+    <ClInclude Include="..\sql_function.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\HHBK_Projekt_V1\start_game.h">
+    <ClInclude Include="..\start_game.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="..\bridges.h">
