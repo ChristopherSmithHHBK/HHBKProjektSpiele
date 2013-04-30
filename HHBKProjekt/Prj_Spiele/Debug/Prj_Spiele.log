@@ -1,0 +1,33 @@
+﻿Der Buildvorgang wurde am 4/30/2013 10:47:17 AM gestartet.
+     1>Projekt "D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Prj_Spiele\Prj_Spiele.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Debug\Prj_Spiele.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         D:\visualstudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt sql_function.c
+         sql_function.c
+     1>d:\visualstudio\vc\include\my_global.h(825): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio\vc\include\string.h(197): Siehe Deklaration von 'strtok'
+     1>d:\repo_hhbk\hhbkprojekt\prj_spiele\prj_spiele\sql_function.c(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+     1>d:\repo_hhbk\hhbkprojekt\prj_spiele\prj_spiele\sql_function.c(56): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+     1>d:\repo_hhbk\hhbkprojekt\prj_spiele\prj_spiele\sql_function.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio\vc\include\string.h(105): Siehe Deklaration von 'strcpy'
+       ManifestResourceCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         D:\visualstudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Debug\Prj_Spiele.exe" /INCREMENTAL /NOLOGO libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Prj_Spiele.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Debug\Prj_Spiele.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Debug\Prj_Spiele.lib" /MACHINE:X86 Debug\Prj_Spiele.exe.embed.manifest.res
+         Debug\bridges.obj
+         Debug\function.obj
+         Debug\main.obj
+         Debug\sql_function.obj
+         Debug\start_game.obj
+     1>sql_function.obj : error LNK2001: Nicht aufgelöstes externes Symbol "_mysql_real_connect@32".
+     1>sql_function.obj : error LNK2001: Nicht aufgelöstes externes Symbol "_conn".
+     1>sql_function.obj : error LNK2001: Nicht aufgelöstes externes Symbol "_mysql_init@4".
+     1>D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Debug\Prj_Spiele.exe : fatal error LNK1120: 3 nicht aufgelöste externe Verweise.
+     1>Die Erstellung des Projekts "D:\repo_hhbk\HHBKProjekt\Prj_Spiele\Prj_Spiele\Prj_Spiele.vcxproj" ist abgeschlossen, build Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:01.18
